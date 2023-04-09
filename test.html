@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to Bootstrap 5 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+    />
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Web Page</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <!-- Portfolio Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="portfolioDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Portfolio
+              </a>
+              <ul
+                class="dropdown-menu multi-level"
+                aria-labelledby="portfolioDropdown"
+              >
+                <!-- Beaux Arts Dropdown -->
+                <li class="dropdown-submenu">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    id="beauxArtsDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Beaux Arts
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="beauxArtsDropdown">
+                    <li><a class="dropdown-item" href="#">Item 1</a></li>
+                    <li><a class="dropdown-item" href="#">Item 2</a></li>
+                    <li><a class="dropdown-item" href="#">Item 3</a></li>
+                    <li><a class="dropdown-item" href="#">Item 4</a></li>
+                    <li><a class="dropdown-item" href="#">Item 5</a></li>
+                    <li><a class="dropdown-item" href="#">Item 6</a></li>
+                  </ul>
+                </li>
+                <!-- Art Digital Dropdown -->
+                <li class="dropdown-submenu">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    id="artDigitalDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Art Digital
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="artDigitalDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">Image Numerique</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Video</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- Gallery Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="galleryDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Gallery
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="galleryDropdown">
+                <li><a class="dropdown-item" href="#">Conference</a></li>
+                <!-- Boutique Dropdown -->
+                <li class="dropdown-submenu">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    id="boutiqueDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Boutique
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="boutiqueDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">Travaux des Eleves</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Boutique en Ligne</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Link to Bootstrap 5 JavaScript Bundle (with Popper.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
